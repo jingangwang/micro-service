@@ -1,0 +1,988 @@
+ [2017-12-22 10:42:12.745] DEBUG org.jboss.logging [background-preinit] Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+ [2017-12-22 10:42:12.749] INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.6.Final
+ [2017-12-22 10:42:12.778] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [background-preinit] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:12.868] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:12.881] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:12.886] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ [2017-12-22 10:42:12.887] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ [2017-12-22 10:42:12.888] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+ [2017-12-22 10:42:12.890] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+ [2017-12-22 10:42:12.892] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via user class loader
+ [2017-12-22 10:42:12.892] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+ [2017-12-22 10:42:12.893] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ [2017-12-22 10:42:12.893] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+ [2017-12-22 10:42:23.316] INFO com.wfj.Application [main] No active profile set, falling back to default profiles: default
+ [2017-12-22 10:42:24.513] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:24.514] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:24.515] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ [2017-12-22 10:42:24.515] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ [2017-12-22 10:42:24.515] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+ [2017-12-22 10:42:24.515] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+ [2017-12-22 10:42:24.515] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via user class loader
+ [2017-12-22 10:42:24.516] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+ [2017-12-22 10:42:24.516] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ [2017-12-22 10:42:24.516] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+ [2017-12-22 10:42:24.893] INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+ [2017-12-22 10:42:24.894] INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet Engine: Apache Tomcat/8.5.23
+ [2017-12-22 10:42:25.022] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+ [2017-12-22 10:42:25.935] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:25.940] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:25.941] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ [2017-12-22 10:42:25.941] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ [2017-12-22 10:42:25.941] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+ [2017-12-22 10:42:25.941] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+ [2017-12-22 10:42:25.941] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via user class loader
+ [2017-12-22 10:42:25.941] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+ [2017-12-22 10:42:25.942] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ [2017-12-22 10:42:25.942] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+ [2017-12-22 10:42:27.366] WARN o.s.cloud.starter.eureka.EurekaStarterDeprecationWarningAutoConfiguration [main] spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+ [2017-12-22 10:42:27.644] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:27.645] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [main] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ [2017-12-22 10:42:27.646] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ [2017-12-22 10:42:27.646] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ [2017-12-22 10:42:27.646] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl [main] Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+ [2017-12-22 10:42:27.646] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+ [2017-12-22 10:42:27.646] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via user class loader
+ [2017-12-22 10:42:27.646] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+ [2017-12-22 10:42:27.647] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ [2017-12-22 10:42:27.647] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+ [2017-12-22 10:42:28.447] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [main] Connecting to localhost:8761
+ [2017-12-22 10:42:28.480] DEBUG org.apache.http.client.protocol.RequestAddCookies [main] CookieSpec selected: default
+ [2017-12-22 10:42:28.484] DEBUG org.apache.http.client.protocol.RequestAuthCache [main] Auth cache not set in the context
+ [2017-12-22 10:42:28.484] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [main] Target auth state: UNCHALLENGED
+ [2017-12-22 10:42:28.492] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [main] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:42:28.492] DEBUG org.apache.http.impl.client.DefaultHttpClient [main] Attempt 1 to execute request
+ [2017-12-22 10:42:28.493] DEBUG org.apache.http.impl.conn.DefaultClientConnection [main] Sending request: GET /eureka/apps/ HTTP/1.1
+ [2017-12-22 10:42:28.494] DEBUG org.apache.http.wire [main]  >> "GET /eureka/apps/ HTTP/1.1[\r][\n]"
+ [2017-12-22 10:42:28.496] DEBUG org.apache.http.wire [main]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:42:28.496] DEBUG org.apache.http.wire [main]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:42:28.496] DEBUG org.apache.http.wire [main]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:42:28.497] DEBUG org.apache.http.wire [main]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:42:28.497] DEBUG org.apache.http.wire [main]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:42:28.498] DEBUG org.apache.http.wire [main]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:42:28.498] DEBUG org.apache.http.wire [main]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:42:28.498] DEBUG org.apache.http.wire [main]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:42:28.498] DEBUG org.apache.http.wire [main]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:42:28.498] DEBUG org.apache.http.wire [main]  >> "[\r][\n]"
+ [2017-12-22 10:42:28.498] DEBUG org.apache.http.headers [main] >> GET /eureka/apps/ HTTP/1.1
+ [2017-12-22 10:42:28.498] DEBUG org.apache.http.headers [main] >> Accept: application/json
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> Accept-Encoding: gzip
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> Host: localhost:8761
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> Connection: Keep-Alive
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:42:28.499] DEBUG org.apache.http.headers [main] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:42:28.505] DEBUG org.apache.http.wire [main]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:42:28.509] DEBUG org.apache.http.wire [main]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:42:28.510] DEBUG org.apache.http.wire [main]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:42:28.510] DEBUG org.apache.http.wire [main]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:42:28.510] DEBUG org.apache.http.wire [main]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:42:28.510] DEBUG org.apache.http.wire [main]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:42:28.510] DEBUG org.apache.http.wire [main]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:42:28.511] DEBUG org.apache.http.wire [main]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:42:28.511] DEBUG org.apache.http.wire [main]  << "Content-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:42:28.512] DEBUG org.apache.http.wire [main]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:42:28.513] DEBUG org.apache.http.wire [main]  << "Content-Length: 527[\r][\n]"
+ [2017-12-22 10:42:28.513] DEBUG org.apache.http.wire [main]  << "Date: Fri, 22 Dec 2017 02:42:28 GMT[\r][\n]"
+ [2017-12-22 10:42:28.513] DEBUG org.apache.http.wire [main]  << "[\r][\n]"
+ [2017-12-22 10:42:28.513] DEBUG org.apache.http.impl.conn.DefaultClientConnection [main] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:42:28.513] DEBUG org.apache.http.headers [main] << HTTP/1.1 200 
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Pragma: no-cache
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Expires: 0
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << X-Frame-Options: DENY
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Content-Encoding: gzip
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Content-Type: application/json
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Content-Length: 527
+ [2017-12-22 10:42:28.514] DEBUG org.apache.http.headers [main] << Date: Fri, 22 Dec 2017 02:42:28 GMT
+ [2017-12-22 10:42:28.519] DEBUG org.apache.http.impl.client.DefaultHttpClient [main] Connection can be kept alive indefinitely
+ [2017-12-22 10:42:28.531] DEBUG org.apache.http.wire [main]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d]S]o[0xda]0[0x14][0xfd]/V[0x1f]iH[0xf8]&OE[0x84][0x7]T[\r][0x10][0x1d][0xdd][0xc3]T![0xcf][0xbe][0x10][0xab][0x8e][0x1d][0xd9][0xe][0x1d]B[0xfc][0xf7]][0xc7]K;[0x10][0xdd][0xa6]DJ|[0xef][0xb9]_[0xe7][0x1e][0x9f][0x8]-K)[0x18]uB+K[0xd2][0x13]9[0x80][0xb1][0xfe][0xbb][0xe5] [0x1d]%)IH[0xcb][0xa3][0xd0][0x92]S[0x9b]3[0xcd][0x1][0x8d][0x9b][0xd5]6[0xd9][0x6]G[0x13]N[0xd2][0xef]'[0xa2]h[0xe1][0xdd][0xb3][0xcd]z[0xf6]8[0xb9]_[0xad][0x97][0xcf][0xf3]l[0xb6]F[0xa0]P[0xd6]Q[0xc5][0xa0]F5[0x87]9[0xf7][0xf9][0x87][0x9d]([0x19]D[0x9d]~?JF[0xc3][0x14]*[0x3][0xaf][0xf4][0xbe]4[0xfa] 8[0x98]t[0x14][0x8f]b[0x8c][0xcf][0xb5]u[0x8b][0x90][0xfc]2 4q[0xbb]f9[0xe1][0xdc][0xdc][0x8a][0xc0][0xf2][0xae][0xb2][0xf5][0x1c]x[0xd2]8[0xb4][0x11][0x9c][0x83][0xfa][0xb0]/[0x1e][0x17][0xcb]o[0xb]t[0x96][0xda]8O[0xcc][0x1d][0xa9][i[0x91][0x7]P[0xf4][0x87][0x4][0xdf][0xba]3[0x15][0x90]3[0xa6][0x3][0x86]][0xaf]>[0x90][0xbd]^[0xf7][0x2][0xb8][0xa3][0xd2][0xd6]H[0xa6]+[0xe5][0xcc][0xd1][0xf][0x9e][0xb4][0x8][0xa7][0x8e]NA90s[0xb5][0xd3]>[0xf6][0x81]Ij}[0x3]L[0x17][0x91][0x2][0xb7][0x93][0xe2]g[0x84][0xf3][0x9][0xf4]G[0xf3][0x86]6<[0xdc]e[0xb0][0xa3][0x95]t[0xd9]e[0x8a]V[0xb3][0x81]/[0xc7][0xe5][0x9b][0xf2][0x15]%P[0xb]Mz[0x3][\n]"
+ [2017-12-22 10:42:28.531] DEBUG org.apache.http.wire [main]  << "[0xde][0xa8][0x9c]{[0xfc][0xc1][0x9f][0x80]a[0xb5].[0x8e][0xc5]+S[0xaf][0xb1][0xb1][0x8d][0xd1]f`/[0xac][0xb][0xf6][0xaf][0xa2][0x0],_ [0xd5]I?[0xe9][0x8e][0xe3][0xf1][0x0][0xdf]N[0x1f]+P[0xeb][0xd6]![0xf1]5([0x89][0x7]q2[0x18]vZ[0x4][0xe][0x82]][0xa5][0x89]=q[0x6][0xed][0xb0])?[0xc9]>[0xc0][0x1][\n]"
+ [2017-12-22 10:42:28.532] DEBUG org.apache.http.wire [main]  << "p[0xd4][0x13][0xe5][0xfb]/[0xa8][0xa2]{(p[0xde]([0xec][0x85][0xd4][0xf2]8{}[0x14][0xb0]B[0xdf][0xc6]H[0xb4][0xe6][0xce][0x95]i[0xbb]}%-[0x8f]m[0xbf]o[0xff][0xbf][0xd0]"[0x90][0x9a][0x3][0x95].[0x9f][0xe6][0xc0]^[0xff][0x19][0x12][0xb0][0x18]t[0x8][0xfa][0x83]z[0x9f]W[0xb2]&[0x8d]h[0x9e][0xff][0xe][0x12]v[0xaa][0xb5][0xe1]B[0xe1][0xe][0xd4]>[0x13][0x96]y[0xb1][0x1e][0x9f][0x90]70[0xef][0xc2][\n]"
+ [2017-12-22 10:42:28.532] DEBUG org.apache.http.wire [main]  << ";[0xd8][0x94]H[0x13][0xf0]?[0xa8]$[0x17]\[0xfe][0x86]e[0xc2][0xb8][0xe3]mPo[0xd8][0xf1][0xd7]),[0xea]Xz[0x1d]M[0xb2]l[0x96][0x91][0xf3][0xb]>[0xe7]_x+[0xf1][0xc1].[0x4][0x0][0x0]"
+ [2017-12-22 10:42:28.726] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Stale connection check
+ [2017-12-22 10:42:28.728] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-InstanceInfoReplicator-0] CookieSpec selected: default
+ [2017-12-22 10:42:28.728] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-InstanceInfoReplicator-0] Auth cache not set in the context
+ [2017-12-22 10:42:28.728] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-InstanceInfoReplicator-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:42:28.728] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-InstanceInfoReplicator-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Attempt 1 to execute request
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-InstanceInfoReplicator-0] Sending request: POST /eureka/apps/EUREKA-CONSUMER HTTP/1.1
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "POST /eureka/apps/EUREKA-CONSUMER HTTP/1.1[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Transfer-Encoding: chunked[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:42:28.729] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> POST /eureka/apps/EUREKA-CONSUMER HTTP/1.1
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Content-Type: application/json
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Accept: application/json
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Transfer-Encoding: chunked
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Host: localhost:8761
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Connection: Keep-Alive
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:42:28.731] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:42:28.736] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "178[\r][\n]"
+ [2017-12-22 10:42:28.736] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "{"instance":{"instanceId":"172.16.255.187:eureka-consumer:8085","hostName":"172.16.255.187","app":"EUREKA-CONSUMER","ipAddr":"172.16.255.187","status":"UP","overriddenstatus":"UNKNOWN","port":{"$":8085,"@enabled":"true"},"securePort":{"$":443,"@enabled":"false"},"countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"}"
+ [2017-12-22 10:42:28.736] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:28.751] INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8085"]
+ [2017-12-22 10:42:28.753] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "9d[\r][\n]"
+ [2017-12-22 10:42:28.753] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> ","leaseInfo":{"renewalIntervalInSecs":30,"durationInSecs":90,"registrationTimestamp":0,"lastRenewalTimestamp":0,"evictionTimestamp":0,"serviceUpTimestamp":0}"
+ [2017-12-22 10:42:28.753] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:28.761] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "26[\r][\n]"
+ [2017-12-22 10:42:28.761] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> ","metadata":{"management.port":"8085"}"
+ [2017-12-22 10:42:28.761] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:28.762] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "14d[\r][\n]"
+ [2017-12-22 10:42:28.762] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> ","homePageUrl":"http://172.16.255.187:8085/","statusPageUrl":"http://172.16.255.187:8085/info","healthCheckUrl":"http://172.16.255.187:8085/health","vipAddress":"eureka-consumer","secureVipAddress":"eureka-consumer","isCoordinatingDiscoveryServer":"false","lastUpdatedTimestamp":"1513910547666","lastDirtyTimestamp":"1513910548717"}}"
+ [2017-12-22 10:42:28.763] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:28.763] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "0[\r][\n]"
+ [2017-12-22 10:42:28.763] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "HTTP/1.1 204 [\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Date: Fri, 22 Dec 2017 02:42:28 GMT[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "[\r][\n]"
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-InstanceInfoReplicator-0] Receiving response: HTTP/1.1 204 
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << HTTP/1.1 204 
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Pragma: no-cache
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Expires: 0
+ [2017-12-22 10:42:28.765] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << X-Frame-Options: DENY
+ [2017-12-22 10:42:28.766] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:42:28.766] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Content-Type: application/json
+ [2017-12-22 10:42:28.766] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Date: Fri, 22 Dec 2017 02:42:28 GMT
+ [2017-12-22 10:42:28.766] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:42:28.775] INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8085"]
+ [2017-12-22 10:42:28.794] INFO org.apache.tomcat.util.net.NioSelectorPool [main] Using a shared selector for servlet write/read
+ [2017-12-22 10:42:28.823] INFO com.wfj.Application [main] Started Application in 27.102 seconds (JVM running for 27.711)
+ [2017-12-22 10:42:35.193] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8085-exec-1] Initializing Spring FrameworkServlet 'dispatcherServlet'
+ [2017-12-22 10:42:58.342] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52662<->127.0.0.1:8761 closed
+ [2017-12-22 10:42:58.648] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-CacheRefreshExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:42:58.648] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-HeartbeatExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-CacheRefreshExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-CacheRefreshExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Sending request: GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:42:58.650] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept: application/json
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:42:58.651] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:42:58.653] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-HeartbeatExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:42:58.653] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-HeartbeatExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:42:58.653] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-HeartbeatExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:42:58.653] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-HeartbeatExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:42:58.653] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:42:58.653] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Sending request: PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:42:58.653] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:42:58.654] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Content-Length: 0
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:42:58.655] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:42:58.658] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Length: 520[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Date: Fri, 22 Dec 2017 02:42:58 GMT[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:42:58.659] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Expires: 0
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Encoding: gzip
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Type: application/json
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Length: 520
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Date: Fri, 22 Dec 2017 02:42:58 GMT
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:42:58.660] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d]S[0xc1]n[0xe2]0[0x10][0xfd][0x17][0xab]G[0x1a][0x12] [0x85][0xe6]TD8[0xa0][0xaa][0x1][0xc1][0xa6]{[0xa8]V[0xc8][0xeb][0xc][0xc4][0xaa][0xe3]D[0xb6]C7B[0xfc][0xfb][0x8e][0xe3]M[P[0xd9]]q[0x0][0xcf][0xbc][0x99]y[0xf3][0xe6]q$[0xb4][0xaa][0x4]g[0xd4][0xf0]Rj[0x12][0x1d][0xc9][0x1][0x94][0xb6][0xbf][0xb7][0xdb][0xc][0x84][0xa1]$"[0x81]Oz[0x16][0x86][0xa1][0x9c][0xea][0x9c][0x95][0x19]`4]m[0x7][[0x97][0xe8][0xea]I[0xf4]r$[0x92][0x16]6=O[0xd7][0xf3][0xc7][0xe9][0xed]l[0x99]l[0xd2][0xa7][0xf9][0x1a][0x81]\jC%[0x83][0x16][0xd5]=[0x16][0x99][0x1d]0[0x1e]x[0xc1][0x9d]7[0x8]C/[0x98][0x8c]#[0xa8][0x15][0xbc][0xd2][[0x86]$[0xea][0x2]T4[0xf1]'![0xd6][0xe7][0xa5]6[0x89]k~^[0xe0]H|=[0xb3][0x9a]f[0x99][0xfa][0xaa][0x2][0xc7][0x9b]Z[0xb7]{[0xe0][0xab][0xc4][0xad][0x15][0xcf]2[0x90][0x1f][0xf1][0xe4]1Y~O0Y[0x95][0xca]XenHK[0xa5]G[0x1e]@[0xd2][0x9f][0x2],u[0xa3]j 'l[0x7][0xc]Y[0xaf]>[0x90][0xa3][0xd1][0xf0][0xc][0xb8][0xa3]B[0xb7]HV[0xd6][0xd2][0xa8][0xc6].[0x1e][0xf4]HF[\r][0x9d][0x81]4[0xa0][0x16]rW[0xda][0xda][0x7]&[0xa8][0xb6][0x4]XYx[0x12][0xcc]N[0xf0]_[0x1e][0xee][0xc7]1[0xef]-:[0xd9][0xf0]q[0x13][0xc3][0x8e][0xd6][0xc2][0xc4][0xe7]-z[0xdd][0x5][0x9e][0x9a][0xe5][0x9b][0xb4][0x13][0x5]P[\r]]{[0x5][0x12][0xde][0xa8]XX[0xfc][0xc1]~o[0x80][0xe1][0xb4][0xa1][0x8f]\j[0xd5][0x9e][0xb1][0x8b][0xdd]cL[0xc1][0x9e]k[0xe3][0xe2][0xdf]x[0x1]8[0xbe]@[0xa9][0x83]0[0x18][0xde][0x7]~8[0x9a][0x8c][0xef]pOdl[0xd6][0xae][0xf1]u[0x10][0x1c]8[0xbb]h[0xe3][[0xe1][0x14][0xc6]![0xad][0xae][0x14][0x8e]p[0x81][0x2][0xc][0xb5]BY[0xfe][0x5][0x95]t[0xf][0x5][0xee][0xeb][0xb9][0xbb][0x90][0xd6][0x1e]'[0xeb][0x8f][0x2]V[0x98]K[0x95][0xc0]hnL[0x15][0xf5][0xfb][0x17][0xd6][0xb2][0xd8][0xfe][0xfb][0xf5][0xff][0xb][0xcd][0x9d][0xa8]9Pa[0xf2]Y[0xe][0xec][0xf5][0x9f]%[0xe][0x8b]E[0x7][0xe7]?h[0xef]yak[0xd2][0x99][0xe6][0xf9][0xef] [0xae]ge[0xa9]2.[0xf1][0x6]r[0x1f]s[0xcd][0xac]Y[0x9b][\r][0xea][0x6][0xea][0xdd]X[0xee][0x6]i[0x85]2A[0xf6]IJr[0xa6][0xe5][0x1f]X[0xcc][0x95]i[0xae][0x80][0x82][0xf6][0xef][0xe4][0xe][0xd5]T[0xd6]G[0xd3]8[0x9e][0xc7][0xe4][0xf4][0x3]?[0xa7][0xdf]l[0x15]/E/[0x4][0x0][0x0]"
+ [2017-12-22 10:42:58.663] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:42:58.663] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Type: application/xml[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Date: Fri, 22 Dec 2017 02:42:58 GMT[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:42:58.664] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Expires: 0
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Type: application/xml
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Length: 0
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Date: Fri, 22 Dec 2017 02:42:58 GMT
+ [2017-12-22 10:42:58.665] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:43:06.902] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [RibbonApacheHttpClientConfiguration.connectionManagerTimer] Closing expired connections
+ [2017-12-22 10:43:28.347] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52674<->127.0.0.1:8761 closed
+ [2017-12-22 10:43:28.348] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52673<->127.0.0.1:8761 closed
+ [2017-12-22 10:43:28.678] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-CacheRefreshExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:43:28.678] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-HeartbeatExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:43:28.679] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-CacheRefreshExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:43:28.679] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-CacheRefreshExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:43:28.679] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:43:28.679] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-HeartbeatExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:43:28.679] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:43:28.679] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-HeartbeatExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-HeartbeatExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Sending request: GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-HeartbeatExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Sending request: PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept: application/json
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:43:28.680] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Content-Length: 0
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:43:28.681] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Length: 520[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Date: Fri, 22 Dec 2017 02:43:28 GMT[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:43:28.684] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Expires: 0
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Type: application/xml[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Date: Fri, 22 Dec 2017 02:43:28 GMT[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Expires: 0
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Type: application/xml
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Length: 0
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Date: Fri, 22 Dec 2017 02:43:28 GMT
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:43:28.685] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:43:28.686] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:43:28.686] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Encoding: gzip
+ [2017-12-22 10:43:28.686] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Type: application/json
+ [2017-12-22 10:43:28.686] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Length: 520
+ [2017-12-22 10:43:28.686] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Date: Fri, 22 Dec 2017 02:43:28 GMT
+ [2017-12-22 10:43:28.686] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:43:28.686] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d]S[0xc1]n[0xe2]0[0x10][0xfd][0x17][0xab]G[0x1a][0x12] [0x85][0xe6]TD8[0xa0][0xaa][0x1][0xc1][0xa6]{[0xa8]V[0xc8][0xeb][0xc][0xc4][0xaa][0xe3]D[0xb6]C7B[0xfc][0xfb][0x8e][0xe3]M[P[0xd9]]q[0x0][0xcf][0xbc][0x99]y[0xf3][0xe6]q$[0xb4][0xaa][0x4]g[0xd4][0xf0]Rj[0x12][0x1d][0xc9][0x1][0x94][0xb6][0xbf][0xb7][0xdb][0xc][0x84][0xa1]$"[0x81]Oz[0x16][0x86][0xa1][0x9c][0xea][0x9c][0x95][0x19]`4]m[0x7][[0x97][0xe8][0xea]I[0xf4]r$[0x92][0x16]6=O[0xd7][0xf3][0xc7][0xe9][0xed]l[0x99]l[0xd2][0xa7][0xf9][0x1a][0x81]\jC%[0x83][0x16][0xd5]=[0x16][0x99][0x1d]0[0x1e]x[0xc1][0x9d]7[0x8]C/[0x98][0x8c]#[0xa8][0x15][0xbc][0xd2][[0x86]$[0xea][0x2]T4[0xf1]'![0xd6][0xe7][0xa5]6[0x89]k~^[0xe0]H|=[0xb3][0x9a]f[0x99][0xfa][0xaa][0x2][0xc7][0x9b]Z[0xb7]{[0xe0][0xab][0xc4][0xad][0x15][0xcf]2[0x90][0x1f][0xf1][0xe4]1Y~O0Y[0x95][0xca]XenHK[0xa5]G[0x1e]@[0xd2][0x9f][0x2],u[0xa3]j 'l[0x7][0xc]Y[0xaf]>[0x90][0xa3][0xd1][0xf0][0xc][0xb8][0xa3]B[0xb7]HV[0xd6][0xd2][0xa8][0xc6].[0x1e][0xf4]HF[\r][0x9d][0x81]4[0xa0][0x16]rW[0xda][0xda][0x7]&[0xa8][0xb6][0x4]XYx[0x12][0xcc]N[0xf0]_[0x1e][0xee][0xc7]1[0xef]-:[0xd9][0xf0]q[0x13][0xc3][0x8e][0xd6][0xc2][0xc4][0xe7]-z[0xdd][0x5][0x9e][0x9a][0xe5][0x9b][0xb4][0x13][0x5]P[\r]]{[0x5][0x12][0xde][0xa8]XX[0xfc][0xc1]~o[0x80][0xe1][0xb4][0xa1][0x8f]\j[0xd5][0x9e][0xb1][0x8b][0xdd]cL[0xc1][0x9e]k[0xe3][0xe2][0xdf]x[0x1]8[0xbe]@[0xa9][0x83]0[0x18][0xde][0x7]~8[0x9a][0x8c][0xef]pOdl[0xd6][0xae][0xf1]u[0x10][0x1c]8[0xbb]h[0xe3][[0xe1][0x14][0xc6]![0xad][0xae][0x14][0x8e]p[0x81][0x2][0xc][0xb5]BY[0xfe][0x5][0x95]t[0xf][0x5][0xee][0xeb][0xb9][0xbb][0x90][0xd6][0x1e]'[0xeb][0x8f][0x2]V[0x98]K[0x95][0xc0]hnL[0x15][0xf5][0xfb][0x17][0xd6][0xb2][0xd8][0xfe][0xfb][0xf5][0xff][0xb][0xcd][0x9d][0xa8]9Pa[0xf2]Y[0xe][0xec][0xf5][0x9f]%[0xe][0x8b]E[0x7][0xe7]?h[0xef]yak[0xd2][0x99][0xe6][0xf9][0xef] [0xae]ge[0xa9]2.[0xf1][0x6]r[0x1f]s[0xcd][0xac]Y[0x9b][\r][0xea][0x6][0xea][0xdd]X[0xee][0x6]i[0x85]2A[0xf6]IJr[0xa6][0xe5][0x1f]X[0xcc][0x95]i[0xae][0x80][0x82][0xf6][0xef][0xe4][0xe][0xd5]T[0xd6]G[0xd3]8[0x9e][0xc7][0xe4][0xf4][0x3]?[0xa7][0xdf]l[0x15]/E/[0x4][0x0][0x0]"
+ [2017-12-22 10:43:36.906] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [RibbonApacheHttpClientConfiguration.connectionManagerTimer] Closing expired connections
+ [2017-12-22 10:43:58.354] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52679<->127.0.0.1:8761 closed
+ [2017-12-22 10:43:58.355] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52678<->127.0.0.1:8761 closed
+ [2017-12-22 10:43:58.695] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-CacheRefreshExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:43:58.695] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-HeartbeatExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:43:58.696] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-CacheRefreshExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-CacheRefreshExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-HeartbeatExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-HeartbeatExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Sending request: GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-HeartbeatExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-HeartbeatExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Sending request: PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:43:58.697] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept: application/json
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:43:58.698] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Content-Length: 0
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:43:58.699] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:43:58.702] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:43:58.702] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Length: 520[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Date: Fri, 22 Dec 2017 02:43:58 GMT[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Expires: 0
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Encoding: gzip
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Type: application/json
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Length: 520
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Type: application/xml[\r][\n]"
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Date: Fri, 22 Dec 2017 02:43:58 GMT[\r][\n]"
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Expires: 0
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Type: application/xml
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Length: 0
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Date: Fri, 22 Dec 2017 02:43:58 GMT
+ [2017-12-22 10:43:58.704] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:43:58.703] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Date: Fri, 22 Dec 2017 02:43:58 GMT
+ [2017-12-22 10:43:58.705] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:43:58.705] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d]S[0xc1]n[0xe2]0[0x10][0xfd][0x17][0xab]G[0x1a][0x12] [0x85][0xe6]TD8[0xa0][0xaa][0x1][0xc1][0xa6]{[0xa8]V[0xc8][0xeb][0xc][0xc4][0xaa][0xe3]D[0xb6]C7B[0xfc][0xfb][0x8e][0xe3]M[P[0xd9]]q[0x0][0xcf][0xbc][0x99]y[0xf3][0xe6]q$[0xb4][0xaa][0x4]g[0xd4][0xf0]Rj[0x12][0x1d][0xc9][0x1][0x94][0xb6][0xbf][0xb7][0xdb][0xc][0x84][0xa1]$"[0x81]Oz[0x16][0x86][0xa1][0x9c][0xea][0x9c][0x95][0x19]`4]m[0x7][[0x97][0xe8][0xea]I[0xf4]r$[0x92][0x16]6=O[0xd7][0xf3][0xc7][0xe9][0xed]l[0x99]l[0xd2][0xa7][0xf9][0x1a][0x81]\jC%[0x83][0x16][0xd5]=[0x16][0x99][0x1d]0[0x1e]x[0xc1][0x9d]7[0x8]C/[0x98][0x8c]#[0xa8][0x15][0xbc][0xd2][[0x86]$[0xea][0x2]T4[0xf1]'![0xd6][0xe7][0xa5]6[0x89]k~^[0xe0]H|=[0xb3][0x9a]f[0x99][0xfa][0xaa][0x2][0xc7][0x9b]Z[0xb7]{[0xe0][0xab][0xc4][0xad][0x15][0xcf]2[0x90][0x1f][0xf1][0xe4]1Y~O0Y[0x95][0xca]XenHK[0xa5]G[0x1e]@[0xd2][0x9f][0x2],u[0xa3]j 'l[0x7][0xc]Y[0xaf]>[0x90][0xa3][0xd1][0xf0][0xc][0xb8][0xa3]B[0xb7]HV[0xd6][0xd2][0xa8][0xc6].[0x1e][0xf4]HF[\r][0x9d][0x81]4[0xa0][0x16]rW[0xda][0xda][0x7]&[0xa8][0xb6][0x4]XYx[0x12][0xcc]N[0xf0]_[0x1e][0xee][0xc7]1[0xef]-:[0xd9][0xf0]q[0x13][0xc3][0x8e][0xd6][0xc2][0xc4][0xe7]-z[0xdd][0x5][0x9e][0x9a][0xe5][0x9b][0xb4][0x13][0x5]P[\r]]{[0x5][0x12][0xde][0xa8]XX[0xfc][0xc1]~o[0x80][0xe1][0xb4][0xa1][0x8f]\j[0xd5][0x9e][0xb1][0x8b][0xdd]cL[0xc1][0x9e]k[0xe3][0xe2][0xdf]x[0x1]8[0xbe]@[0xa9][0x83]0[0x18][0xde][0x7]~8[0x9a][0x8c][0xef]pOdl[0xd6][0xae][0xf1]u[0x10][0x1c]8[0xbb]h[0xe3][[0xe1][0x14][0xc6]![0xad][0xae][0x14][0x8e]p[0x81][0x2][0xc][0xb5]BY[0xfe][0x5][0x95]t[0xf][0x5][0xee][0xeb][0xb9][0xbb][0x90][0xd6][0x1e]'[0xeb][0x8f][0x2]V[0x98]K[0x95][0xc0]hnL[0x15][0xf5][0xfb][0x17][0xd6][0xb2][0xd8][0xfe][0xfb][0xf5][0xff][0xb][0xcd][0x9d][0xa8]9Pa[0xf2]Y[0xe][0xec][0xf5][0x9f]%[0xe][0x8b]E[0x7][0xe7]?h[0xef]yak[0xd2][0x99][0xe6][0xf9][0xef] [0xae]ge[0xa9]2.[0xf1][0x6]r[0x1f]s[0xcd][0xac]Y[0x9b][\r][0xea][0x6][0xea][0xdd]X[0xee][0x6]i[0x85]2A[0xf6]IJr[0xa6][0xe5][0x1f]X[0xcc][0x95]i[0xae][0x80][0x82][0xf6][0xef][0xe4][0xe][0xd5]T[0xd6]G[0xd3]8[0x9e][0xc7][0xe4][0xf4][0x3]?[0xa7][0xdf]l[0x15]/E/[0x4][0x0][0x0]"
+ [2017-12-22 10:44:06.911] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [RibbonApacheHttpClientConfiguration.connectionManagerTimer] Closing expired connections
+ [2017-12-22 10:44:28.361] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52683<->127.0.0.1:8761 closed
+ [2017-12-22 10:44:28.362] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52684<->127.0.0.1:8761 closed
+ [2017-12-22 10:44:28.711] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-CacheRefreshExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:44:28.711] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-HeartbeatExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-CacheRefreshExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-CacheRefreshExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-HeartbeatExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-HeartbeatExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-HeartbeatExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:44:28.712] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Sending request: GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-HeartbeatExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Sending request: PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:44:28.713] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Content-Length: 0
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:44:28.714] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept: application/json
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:44:28.715] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:44:28.718] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Length: 520[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Date: Fri, 22 Dec 2017 02:44:28 GMT[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Expires: 0
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Encoding: gzip
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Type: application/json
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Length: 520
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Date: Fri, 22 Dec 2017 02:44:28 GMT
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Type: application/xml[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Date: Fri, 22 Dec 2017 02:44:28 GMT[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:44:28.719] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Expires: 0
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Type: application/xml
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Length: 0
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Date: Fri, 22 Dec 2017 02:44:28 GMT
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d]S[0xc1]n[0xe2]0[0x10][0xfd][0x17][0xab]G[0x1a][0x12] [0x85][0xe6]TD8[0xa0][0xaa][0x1][0xc1][0xa6]{[0xa8]V[0xc8][0xeb][0xc][0xc4][0xaa][0xe3]D[0xb6]C7B[0xfc][0xfb][0x8e][0xe3]M[P[0xd9]]q[0x0][0xcf][0xbc][0x99]y[0xf3][0xe6]q$[0xb4][0xaa][0x4]g[0xd4][0xf0]Rj[0x12][0x1d][0xc9][0x1][0x94][0xb6][0xbf][0xb7][0xdb][0xc][0x84][0xa1]$"[0x81]Oz[0x16][0x86][0xa1][0x9c][0xea][0x9c][0x95][0x19]`4]m[0x7][[0x97][0xe8][0xea]I[0xf4]r$[0x92][0x16]6=O[0xd7][0xf3][0xc7][0xe9][0xed]l[0x99]l[0xd2][0xa7][0xf9][0x1a][0x81]\jC%[0x83][0x16][0xd5]=[0x16][0x99][0x1d]0[0x1e]x[0xc1][0x9d]7[0x8]C/[0x98][0x8c]#[0xa8][0x15][0xbc][0xd2][[0x86]$[0xea][0x2]T4[0xf1]'![0xd6][0xe7][0xa5]6[0x89]k~^[0xe0]H|=[0xb3][0x9a]f[0x99][0xfa][0xaa][0x2][0xc7][0x9b]Z[0xb7]{[0xe0][0xab][0xc4][0xad][0x15][0xcf]2[0x90][0x1f][0xf1][0xe4]1Y~O0Y[0x95][0xca]XenHK[0xa5]G[0x1e]@[0xd2][0x9f][0x2],u[0xa3]j 'l[0x7][0xc]Y[0xaf]>[0x90][0xa3][0xd1][0xf0][0xc][0xb8][0xa3]B[0xb7]HV[0xd6][0xd2][0xa8][0xc6].[0x1e][0xf4]HF[\r][0x9d][0x81]4[0xa0][0x16]rW[0xda][0xda][0x7]&[0xa8][0xb6][0x4]XYx[0x12][0xcc]N[0xf0]_[0x1e][0xee][0xc7]1[0xef]-:[0xd9][0xf0]q[0x13][0xc3][0x8e][0xd6][0xc2][0xc4][0xe7]-z[0xdd][0x5][0x9e][0x9a][0xe5][0x9b][0xb4][0x13][0x5]P[\r]]{[0x5][0x12][0xde][0xa8]XX[0xfc][0xc1]~o[0x80][0xe1][0xb4][0xa1][0x8f]\j[0xd5][0x9e][0xb1][0x8b][0xdd]cL[0xc1][0x9e]k[0xe3][0xe2][0xdf]x[0x1]8[0xbe]@[0xa9][0x83]0[0x18][0xde][0x7]~8[0x9a][0x8c][0xef]pOdl[0xd6][0xae][0xf1]u[0x10][0x1c]8[0xbb]h[0xe3][[0xe1][0x14][0xc6]![0xad][0xae][0x14][0x8e]p[0x81][0x2][0xc][0xb5]BY[0xfe][0x5][0x95]t[0xf][0x5][0xee][0xeb][0xb9][0xbb][0x90][0xd6][0x1e]'[0xeb][0x8f][0x2]V[0x98]K[0x95][0xc0]hnL[0x15][0xf5][0xfb][0x17][0xd6][0xb2][0xd8][0xfe][0xfb][0xf5][0xff][0xb][0xcd][0x9d][0xa8]9Pa[0xf2]Y[0xe][0xec][0xf5][0x9f]%[0xe][0x8b]E[0x7][0xe7]?h[0xef]yak[0xd2][0x99][0xe6][0xf9][0xef] [0xae]ge[0xa9]2.[0xf1][0x6]r[0x1f]s[0xcd][0xac]Y[0x9b][\r][0xea][0x6][0xea][0xdd]X[0xee][0x6]i[0x85]2A[0xf6]IJr[0xa6][0xe5][0x1f]X[0xcc][0x95]i[0xae][0x80][0x82][0xf6][0xef][0xe4][0xe][0xd5]T[0xd6]G[0xd3]8[0x9e][0xc7][0xe4][0xf4][0x3]?[0xa7][0xdf]l[0x15]/E/[0x4][0x0][0x0]"
+ [2017-12-22 10:44:28.720] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:44:36.915] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [RibbonApacheHttpClientConfiguration.connectionManagerTimer] Closing expired connections
+ [2017-12-22 10:44:58.368] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52694<->127.0.0.1:8761 closed
+ [2017-12-22 10:44:58.370] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52693<->127.0.0.1:8761 closed
+ [2017-12-22 10:44:58.729] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-HeartbeatExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:44:58.729] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-CacheRefreshExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-CacheRefreshExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-HeartbeatExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-CacheRefreshExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-HeartbeatExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-HeartbeatExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-HeartbeatExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Sending request: GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Sending request: PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:44:58.730] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept: application/json
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Content-Length: 0
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:44:58.731] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:44:58.735] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:44:58.735] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Type: application/xml[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Date: Fri, 22 Dec 2017 02:44:58 GMT[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Length: 520[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Date: Fri, 22 Dec 2017 02:44:58 GMT[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Expires: 0
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Expires: 0
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Encoding: gzip
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Type: application/json
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Length: 520
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Date: Fri, 22 Dec 2017 02:44:58 GMT
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:44:58.737] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d]S[0xc1]n[0xe2]0[0x10][0xfd][0x17][0xab]G[0x1a][0x12] [0x85][0xe6]TD8[0xa0][0xaa][0x1][0xc1][0xa6]{[0xa8]V[0xc8][0xeb][0xc][0xc4][0xaa][0xe3]D[0xb6]C7B[0xfc][0xfb][0x8e][0xe3]M[P[0xd9]]q[0x0][0xcf][0xbc][0x99]y[0xf3][0xe6]q$[0xb4][0xaa][0x4]g[0xd4][0xf0]Rj[0x12][0x1d][0xc9][0x1][0x94][0xb6][0xbf][0xb7][0xdb][0xc][0x84][0xa1]$"[0x81]Oz[0x16][0x86][0xa1][0x9c][0xea][0x9c][0x95][0x19]`4]m[0x7][[0x97][0xe8][0xea]I[0xf4]r$[0x92][0x16]6=O[0xd7][0xf3][0xc7][0xe9][0xed]l[0x99]l[0xd2][0xa7][0xf9][0x1a][0x81]\jC%[0x83][0x16][0xd5]=[0x16][0x99][0x1d]0[0x1e]x[0xc1][0x9d]7[0x8]C/[0x98][0x8c]#[0xa8][0x15][0xbc][0xd2][[0x86]$[0xea][0x2]T4[0xf1]'![0xd6][0xe7][0xa5]6[0x89]k~^[0xe0]H|=[0xb3][0x9a]f[0x99][0xfa][0xaa][0x2][0xc7][0x9b]Z[0xb7]{[0xe0][0xab][0xc4][0xad][0x15][0xcf]2[0x90][0x1f][0xf1][0xe4]1Y~O0Y[0x95][0xca]XenHK[0xa5]G[0x1e]@[0xd2][0x9f][0x2],u[0xa3]j 'l[0x7][0xc]Y[0xaf]>[0x90][0xa3][0xd1][0xf0][0xc][0xb8][0xa3]B[0xb7]HV[0xd6][0xd2][0xa8][0xc6].[0x1e][0xf4]HF[\r][0x9d][0x81]4[0xa0][0x16]rW[0xda][0xda][0x7]&[0xa8][0xb6][0x4]XYx[0x12][0xcc]N[0xf0]_[0x1e][0xee][0xc7]1[0xef]-:[0xd9][0xf0]q[0x13][0xc3][0x8e][0xd6][0xc2][0xc4][0xe7]-z[0xdd][0x5][0x9e][0x9a][0xe5][0x9b][0xb4][0x13][0x5]P[\r]]{[0x5][0x12][0xde][0xa8]XX[0xfc][0xc1]~o[0x80][0xe1][0xb4][0xa1][0x8f]\j[0xd5][0x9e][0xb1][0x8b][0xdd]cL[0xc1][0x9e]k[0xe3][0xe2][0xdf]x[0x1]8[0xbe]@[0xa9][0x83]0[0x18][0xde][0x7]~8[0x9a][0x8c][0xef]pOdl[0xd6][0xae][0xf1]u[0x10][0x1c]8[0xbb]h[0xe3][[0xe1][0x14][0xc6]![0xad][0xae][0x14][0x8e]p[0x81][0x2][0xc][0xb5]BY[0xfe][0x5][0x95]t[0xf][0x5][0xee][0xeb][0xb9][0xbb][0x90][0xd6][0x1e]'[0xeb][0x8f][0x2]V[0x98]K[0x95][0xc0]hnL[0x15][0xf5][0xfb][0x17][0xd6][0xb2][0xd8][0xfe][0xfb][0xf5][0xff][0xb][0xcd][0x9d][0xa8]9Pa[0xf2]Y[0xe][0xec][0xf5][0x9f]%[0xe][0x8b]E[0x7][0xe7]?h[0xef]yak[0xd2][0x99][0xe6][0xf9][0xef] [0xae]ge[0xa9]2.[0xf1][0x6]r[0x1f]s[0xcd][0xac]Y[0x9b][\r][0xea][0x6][0xea][0xdd]X[0xee][0x6]i[0x85]2A[0xf6]IJr[0xa6][0xe5][0x1f]X[0xcc][0x95]i[0xae][0x80][0x82][0xf6][0xef][0xe4][0xe][0xd5]T[0xd6]G[0xd3]8[0x9e][0xc7][0xe4][0xf4][0x3]?[0xa7][0xdf]l[0x15]/E/[0x4][0x0][0x0]"
+ [2017-12-22 10:44:58.736] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Type: application/xml
+ [2017-12-22 10:44:58.737] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Length: 0
+ [2017-12-22 10:44:58.737] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Date: Fri, 22 Dec 2017 02:44:58 GMT
+ [2017-12-22 10:44:58.737] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:45:06.920] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [RibbonApacheHttpClientConfiguration.connectionManagerTimer] Closing expired connections
+ [2017-12-22 10:45:28.373] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52701<->127.0.0.1:8761 closed
+ [2017-12-22 10:45:28.374] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Eureka-JerseyClient-Conn-Cleaner2] Connection 0.0.0.0:52702<->127.0.0.1:8761 closed
+ [2017-12-22 10:45:28.743] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-CacheRefreshExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:45:28.743] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator [DiscoveryClient-HeartbeatExecutor-0] Connecting to localhost:8761
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-CacheRefreshExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-CacheRefreshExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-HeartbeatExecutor-0] CookieSpec selected: default
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-CacheRefreshExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-HeartbeatExecutor-0] Auth cache not set in the context
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Sending request: GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-HeartbeatExecutor-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-HeartbeatExecutor-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Attempt 1 to execute request
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Sending request: PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> GET /eureka/apps/delta HTTP/1.1
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> PUT /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085?status=UP&lastDirtyTimestamp=1513910548717 HTTP/1.1
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Content-Length: 0
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:45:28.744] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept: application/json
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Host: localhost:8761
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Connection: Keep-Alive
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:45:28.745] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:45:28.747] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Type: application/xml[\r][\n]"
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "Date: Fri, 22 Dec 2017 02:45:28 GMT[\r][\n]"
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.wire [DiscoveryClient-HeartbeatExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-HeartbeatExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Expires: 0
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Type: application/xml
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Content-Length: 0
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.headers [DiscoveryClient-HeartbeatExecutor-0] << Date: Fri, 22 Dec 2017 02:45:28 GMT
+ [2017-12-22 10:45:28.748] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-HeartbeatExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Content-Length: 520[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "Date: Fri, 22 Dec 2017 02:45:28 GMT[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[\r][\n]"
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-CacheRefreshExecutor-0] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << HTTP/1.1 200 
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Pragma: no-cache
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Expires: 0
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << X-Frame-Options: DENY
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Encoding: gzip
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Type: application/json
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Content-Length: 520
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.headers [DiscoveryClient-CacheRefreshExecutor-0] << Date: Fri, 22 Dec 2017 02:45:28 GMT
+ [2017-12-22 10:45:28.752] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:45:28.753] DEBUG org.apache.http.wire [DiscoveryClient-CacheRefreshExecutor-0]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x8d]S[0xc1]n[0xe2]0[0x10][0xfd][0x17][0xab]G[0x1a][0x12] [0x85][0xe6]TD8[0xa0][0xaa][0x1][0xc1][0xa6]{[0xa8]V[0xc8][0xeb][0xc][0xc4][0xaa][0xe3]D[0xb6]C7B[0xfc][0xfb][0x8e][0xe3]M[P[0xd9]]q[0x0][0xcf][0xbc][0x99]y[0xf3][0xe6]q$[0xb4][0xaa][0x4]g[0xd4][0xf0]Rj[0x12][0x1d][0xc9][0x1][0x94][0xb6][0xbf][0xb7][0xdb][0xc][0x84][0xa1]$"[0x81]Oz[0x16][0x86][0xa1][0x9c][0xea][0x9c][0x95][0x19]`4]m[0x7][[0x97][0xe8][0xea]I[0xf4]r$[0x92][0x16]6=O[0xd7][0xf3][0xc7][0xe9][0xed]l[0x99]l[0xd2][0xa7][0xf9][0x1a][0x81]\jC%[0x83][0x16][0xd5]=[0x16][0x99][0x1d]0[0x1e]x[0xc1][0x9d]7[0x8]C/[0x98][0x8c]#[0xa8][0x15][0xbc][0xd2][[0x86]$[0xea][0x2]T4[0xf1]'![0xd6][0xe7][0xa5]6[0x89]k~^[0xe0]H|=[0xb3][0x9a]f[0x99][0xfa][0xaa][0x2][0xc7][0x9b]Z[0xb7]{[0xe0][0xab][0xc4][0xad][0x15][0xcf]2[0x90][0x1f][0xf1][0xe4]1Y~O0Y[0x95][0xca]XenHK[0xa5]G[0x1e]@[0xd2][0x9f][0x2],u[0xa3]j 'l[0x7][0xc]Y[0xaf]>[0x90][0xa3][0xd1][0xf0][0xc][0xb8][0xa3]B[0xb7]HV[0xd6][0xd2][0xa8][0xc6].[0x1e][0xf4]HF[\r][0x9d][0x81]4[0xa0][0x16]rW[0xda][0xda][0x7]&[0xa8][0xb6][0x4]XYx[0x12][0xcc]N[0xf0]_[0x1e][0xee][0xc7]1[0xef]-:[0xd9][0xf0]q[0x13][0xc3][0x8e][0xd6][0xc2][0xc4][0xe7]-z[0xdd][0x5][0x9e][0x9a][0xe5][0x9b][0xb4][0x13][0x5]P[\r]]{[0x5][0x12][0xde][0xa8]XX[0xfc][0xc1]~o[0x80][0xe1][0xb4][0xa1][0x8f]\j[0xd5][0x9e][0xb1][0x8b][0xdd]cL[0xc1][0x9e]k[0xe3][0xe2][0xdf]x[0x1]8[0xbe]@[0xa9][0x83]0[0x18][0xde][0x7]~8[0x9a][0x8c][0xef]pOdl[0xd6][0xae][0xf1]u[0x10][0x1c]8[0xbb]h[0xe3][[0xe1][0x14][0xc6]![0xad][0xae][0x14][0x8e]p[0x81][0x2][0xc][0xb5]BY[0xfe][0x5][0x95]t[0xf][0x5][0xee][0xeb][0xb9][0xbb][0x90][0xd6][0x1e]'[0xeb][0x8f][0x2]V[0x98]K[0x95][0xc0]hnL[0x15][0xf5][0xfb][0x17][0xd6][0xb2][0xd8][0xfe][0xfb][0xf5][0xff][0xb][0xcd][0x9d][0xa8]9Pa[0xf2]Y[0xe][0xec][0xf5][0x9f]%[0xe][0x8b]E[0x7][0xe7]?h[0xef]yak[0xd2][0x99][0xe6][0xf9][0xef] [0xae]ge[0xa9]2.[0xf1][0x6]r[0x1f]s[0xcd][0xac]Y[0x9b][\r][0xea][0x6][0xea][0xdd]X[0xee][0x6]i[0x85]2A[0xf6]IJr[0xa6][0xe5][0x1f]X[0xcc][0x95]i[0xae][0x80][0x82][0xf6][0xef][0xe4][0xe][0xd5]T[0xd6]G[0xd3]8[0x9e][0xc7][0xe4][0xf4][0x3]?[0xa7][0xdf]l[0x15]/E/[0x4][0x0][0x0]"
+ [2017-12-22 10:45:35.039] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Stale connection check
+ [2017-12-22 10:45:35.041] DEBUG org.apache.http.client.protocol.RequestAddCookies [DiscoveryClient-InstanceInfoReplicator-0] CookieSpec selected: default
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.client.protocol.RequestAuthCache [DiscoveryClient-InstanceInfoReplicator-0] Auth cache not set in the context
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [DiscoveryClient-InstanceInfoReplicator-0] Target auth state: UNCHALLENGED
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [DiscoveryClient-InstanceInfoReplicator-0] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Attempt 1 to execute request
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-InstanceInfoReplicator-0] Sending request: POST /eureka/apps/EUREKA-CONSUMER HTTP/1.1
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "POST /eureka/apps/EUREKA-CONSUMER HTTP/1.1[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Accept: application/json[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Transfer-Encoding: chunked[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:45:35.042] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:45:35.043] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:35.043] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> POST /eureka/apps/EUREKA-CONSUMER HTTP/1.1
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Accept-Encoding: gzip
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Content-Type: application/json
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Accept: application/json
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Transfer-Encoding: chunked
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Host: localhost:8761
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Connection: Keep-Alive
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "17a[\r][\n]"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "{"instance":{"instanceId":"172.16.255.187:eureka-consumer:8085","hostName":"172.16.255.187","app":"EUREKA-CONSUMER","ipAddr":"172.16.255.187","status":"DOWN","overriddenstatus":"UNKNOWN","port":{"$":8085,"@enabled":"true"},"securePort":{"$":443,"@enabled":"false"},"countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"}"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "9d[\r][\n]"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> ","leaseInfo":{"renewalIntervalInSecs":30,"durationInSecs":90,"registrationTimestamp":0,"lastRenewalTimestamp":0,"evictionTimestamp":0,"serviceUpTimestamp":0}"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "26[\r][\n]"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> ","metadata":{"management.port":"8085"}"
+ [2017-12-22 10:45:35.044] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:35.045] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "14d[\r][\n]"
+ [2017-12-22 10:45:35.045] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> ","homePageUrl":"http://172.16.255.187:8085/","statusPageUrl":"http://172.16.255.187:8085/info","healthCheckUrl":"http://172.16.255.187:8085/health","vipAddress":"eureka-consumer","secureVipAddress":"eureka-consumer","isCoordinatingDiscoveryServer":"false","lastUpdatedTimestamp":"1513910547666","lastDirtyTimestamp":"1513910735037"}}"
+ [2017-12-22 10:45:35.045] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:35.045] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "0[\r][\n]"
+ [2017-12-22 10:45:35.045] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  >> "[\r][\n]"
+ [2017-12-22 10:45:35.050] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [Thread-8] Connection manager is shutting down
+ [2017-12-22 10:45:35.050] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [Thread-8] Connection manager shut down
+ [2017-12-22 10:45:35.052] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "HTTP/1.1 204 [\r][\n]"
+ [2017-12-22 10:45:35.052] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:45:35.052] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:45:35.052] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:45:35.052] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:45:35.052] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Content-Type: application/json[\r][\n]"
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "Date: Fri, 22 Dec 2017 02:45:35 GMT[\r][\n]"
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.wire [DiscoveryClient-InstanceInfoReplicator-0]  << "[\r][\n]"
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.impl.conn.DefaultClientConnection [DiscoveryClient-InstanceInfoReplicator-0] Receiving response: HTTP/1.1 204 
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << HTTP/1.1 204 
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Pragma: no-cache
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Expires: 0
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << X-Frame-Options: DENY
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Content-Type: application/json
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.headers [DiscoveryClient-InstanceInfoReplicator-0] << Date: Fri, 22 Dec 2017 02:45:35 GMT
+ [2017-12-22 10:45:35.053] DEBUG org.apache.http.impl.client.DefaultHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Connection can be kept alive indefinitely
+ [2017-12-22 10:45:35.058] DEBUG org.apache.http.impl.client.DefaultHttpClient [Thread-8] Stale connection check
+ [2017-12-22 10:45:35.059] DEBUG org.apache.http.client.protocol.RequestAddCookies [Thread-8] CookieSpec selected: default
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.client.protocol.RequestAuthCache [Thread-8] Auth cache not set in the context
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication [Thread-8] Target auth state: UNCHALLENGED
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication [Thread-8] Proxy auth state: UNCHALLENGED
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.impl.client.DefaultHttpClient [Thread-8] Attempt 1 to execute request
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Thread-8] Sending request: DELETE /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085 HTTP/1.1
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "DELETE /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085 HTTP/1.1[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "DiscoveryIdentity-Id: 172.16.255.187[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "Accept-Encoding: gzip[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "Host: localhost:8761[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "Connection: Keep-Alive[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "User-Agent: Java-EurekaClient/v1.7.0[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.wire [Thread-8]  >> "[\r][\n]"
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> DELETE /eureka/apps/EUREKA-CONSUMER/172.16.255.187:eureka-consumer:8085 HTTP/1.1
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> DiscoveryIdentity-Name: DefaultClient
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> DiscoveryIdentity-Version: 1.4
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> DiscoveryIdentity-Id: 172.16.255.187
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> Accept-Encoding: gzip
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> Host: localhost:8761
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> Connection: Keep-Alive
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> User-Agent: Java-EurekaClient/v1.7.0
+ [2017-12-22 10:45:35.060] DEBUG org.apache.http.headers [Thread-8] >> Authorization: Basic YWRtaW46YWRtaW4xMjM0NQ==
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "HTTP/1.1 200 [\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "Pragma: no-cache[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "Expires: 0[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "X-Frame-Options: DENY[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "Content-Type: application/xml[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "Content-Length: 0[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "Date: Fri, 22 Dec 2017 02:45:35 GMT[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.wire [Thread-8]  << "[\r][\n]"
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Thread-8] Receiving response: HTTP/1.1 200 
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << HTTP/1.1 200 
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << X-Content-Type-Options: nosniff
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << X-XSS-Protection: 1; mode=block
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << Pragma: no-cache
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << Expires: 0
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << X-Frame-Options: DENY
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << Content-Type: application/xml
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << Content-Length: 0
+ [2017-12-22 10:45:35.063] DEBUG org.apache.http.headers [Thread-8] << Date: Fri, 22 Dec 2017 02:45:35 GMT
+ [2017-12-22 10:45:35.064] DEBUG org.apache.http.impl.client.DefaultHttpClient [Thread-8] Connection can be kept alive indefinitely
+ [2017-12-22 10:45:35.077] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Thread-8] Connection 0.0.0.0:52712<->127.0.0.1:8761 closed
+ [2017-12-22 10:45:35.077] DEBUG org.apache.http.impl.conn.DefaultClientConnection [Thread-8] Connection 0.0.0.0:52711<->127.0.0.1:8761 closed
+ [2017-12-22 10:50:13.981] INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.6.Final
+ [2017-12-22 10:50:24.502] INFO com.wfj.Application [main] No active profile set, falling back to default profiles: default
+ [2017-12-22 10:50:26.116] INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+ [2017-12-22 10:50:26.117] INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet Engine: Apache Tomcat/8.5.23
+ [2017-12-22 10:50:26.239] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+ [2017-12-22 10:50:28.676] WARN o.s.cloud.starter.eureka.EurekaStarterDeprecationWarningAutoConfiguration [main] spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+ [2017-12-22 10:50:29.939] INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8085"]
+ [2017-12-22 10:50:29.957] INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8085"]
+ [2017-12-22 10:50:29.975] INFO org.apache.tomcat.util.net.NioSelectorPool [main] Using a shared selector for servlet write/read
+ [2017-12-22 10:50:30.003] INFO com.wfj.Application [main] Started Application in 27.151 seconds (JVM running for 27.847)
+ [2017-12-22 10:50:42.064] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8085-exec-2] Initializing Spring FrameworkServlet 'dispatcherServlet'
+ [2017-12-22 10:50:43.551] INFO com.wfj.service.UserService [hystrix-UserService-1] 发起批量请求：435435
+ [2017-12-22 10:50:44.187] INFO com.wfj.service.UserService [hystrix-UserService-1] 批量请求返回结果：[{"age":30,"id":435435,"username":"test435435"}]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eureka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eureka-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eureka-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eureka-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eureka-consumer-ribbon-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eureka-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eureka-server" charset="UTF-8" />
+  </component>
+</project>
