@@ -10,12 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.ExecutionException;
 
 /**
+ * 测试Scope.GLOBAL的请求合并
  * @author wjg
  * @date 2017/12/21 15:17
  */
 @RequestMapping("user")
 @RestController
-public class FeignCollapserController {
+public class HystrixRequestCollapserController {
     @Autowired
     private UserService userService;
     @RequestMapping("findUser")

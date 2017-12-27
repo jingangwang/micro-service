@@ -32,9 +32,10 @@ public class FeignCollapserController {
      */
     @RequestMapping("findUser")
     public User getUser(Integer id) throws ExecutionException, InterruptedException {
-       // HystrixRequestContext context = HystrixRequestContext.initializeContext();
+        HystrixRequestContext context = HystrixRequestContext.initializeContext();
         User user = userService.find(id).get();
-        //context.close();
+        User user2 = userService.find(1989).get();
+        context.close();
         return user;
     }
 }

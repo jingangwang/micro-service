@@ -34,7 +34,7 @@ public class UserService {
      * @param id
      * @return
      */
-    @HystrixCollapser(batchMethod = "findAllUser",scope = com.netflix.hystrix.HystrixCollapser.Scope.GLOBAL,collapserProperties = {
+    @HystrixCollapser(batchMethod = "findAllUser",scope = com.netflix.hystrix.HystrixCollapser.Scope.REQUEST,collapserProperties = {
             @HystrixProperty(name = "timerDelayInMilliseconds",value = "5000" ),
             @HystrixProperty(name = "maxRequestsInBatch",value = "5" )
     })

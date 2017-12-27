@@ -19,7 +19,7 @@ import java.util.concurrent.*;
  */
 @RestController
 @RequestMapping("user")
-public class FeignController {
+public class HystrixCircuitBreakerController {
     @Autowired
     private UserFeignClient userFeignClient;
 
@@ -224,7 +224,8 @@ public class FeignController {
         return userFeignClient.findUserById(id);
     }
 
-    public User getUserFallBack(Integer id){
+    public User getUserFallBack(Throwable throwable,Integer id){
+        System.out.println("服务降级的原因是："+throwable.getMessage());
         return new User(-1,"fallback",-1);
     }
 

@@ -6,7 +6,7 @@ import java.io.Serializable;
  * @author wjg
  * @date 2017/12/7 15:39
  */
-public class User implements Serializable {
+public class User  {
 
     private Integer id;
     private String username;
